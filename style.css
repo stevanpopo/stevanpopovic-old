@@ -32,6 +32,7 @@ h5 {
 
 h2.tagline {
   font-size: 2.4em;
+  font-weight: bold;
 }
 
 /* LAYOUT */
@@ -43,7 +44,6 @@ div.front-page-info-block {
   margin-top: 2em;
 }
 
-
 img.front-page-headshot {
   height: 450px;
 }
@@ -51,6 +51,22 @@ img.front-page-headshot {
 footer {
   margin-top: 1em;
   background-color: rgba(25, 179, 177, 1);
+}
+
+footer .subscriber-input {
+  margin-top: .6em;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.revue-subscribe form {
+  /* border-right: 1px solid silver; */
+  margin-bottom: .6em;
 }
 /*
 footer p {

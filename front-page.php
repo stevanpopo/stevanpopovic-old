@@ -34,11 +34,35 @@
           </div>
           <div class="front-page-info-block">
             <h5>Writing</h5>
+            <!-- Start the Loop. -->
             <ul>
-              <li>Post One</li>
-              <li>Post Two</li>
-              <li>Post Three</li>
-            </ul>
+
+
+        		 <?php query_posts('showposts=3'); if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+        		 	<li><a href="<?php the_permalink(); ?>" rel="bookmark" title="Go to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></li>
+
+        		 	<!-- Display the date (November 16th, 2009 format) and a link to other posts by this posts author. -->
+        		 	<small><?php the_time('F jS, Y'); ?><!-- by <?php the_author_posts_link(); ?>--></small>
+
+        		 	<!-- Display the Post's content in a div box.
+        		 	<div class="entry">
+        		 		<?php the_content(); ?>
+        		 	</div>
+        		 	-->
+
+        		 	<!-- Display a comma separated list of the Post's Categories.
+        		 	<p class="postmetadata"><?php _e( 'Posted in' ); ?> <?php the_category( ', ' ); ?></p>
+        		    -->
+
+        		 	<!-- Stop The Loop (but note the "else:" - see next line). -->
+
+        		 <?php endwhile; else : ?>
+        		 	<!-- The very first "if" tested to see if there were any Posts to -->
+        		 	<!-- display.  This "else" part tells what do if there weren't any. -->
+        		 	<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+        		 	<!-- REALLY stop The Loop. -->
+        		 <?php endif; ?>
+             </ul>
           </div>
         </div>
         <div class="column is-one-half-desktop">
@@ -52,20 +76,23 @@
           <div class="revue-subscribe column is-two-thirds-desktop">
             <form action="https://www.getrevue.co/profile/stevanpopo/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
               <p>Sign up to my (very occasional) email to hear first about my upcoming product launches and receive any new posts straight in your inbox. Just enter your email and name below.</p>
-              <div class="columns">
+              <div class="columns subscriber-input">
                 <div class="field column is-three-fifths">
                   <input class="revue-form-field input" placeholder="Your email address..." type="email" name="member[email]" id="member_email">
                 </div>
                 <div class="field column is-one-fifth">
                   <input class="revue-form-field input" placeholder="Full name..." type="text" name="member[first_name]" id="member_first_name">
                 </div>
-                <div class=" field revue-form-actions">
+                <div class="field column is-one-fifth revue-form-actions">
                   <input class="button" type="submit" value="Subscribe" name="member[subscribe]" id="member_submit">
                 </div>
               </div>
             </form>
           </div>
-          <!-- <p>Built by <a href="#">@stevanpopo</a>, 2018.</p> -->
+          <div class="column is-one-third copyright">
+            <p>Built with &#9825; by</p>
+            <p><a href="#">@stevanpopo</a>, 2018.</p>
+          </div>
         </div>
       </div>
     </footer>
