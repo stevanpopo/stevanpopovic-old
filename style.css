@@ -68,6 +68,10 @@ footer .subscriber-input {
   /* border-right: 1px solid silver; */
   margin-bottom: .6em;
 }
+
+small.date {
+  margin-right: 1em;
+}
 /*
 footer p {
   padding: 2em 0;
