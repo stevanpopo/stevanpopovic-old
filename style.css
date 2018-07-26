@@ -1,6 +1,12 @@
 /* TYPOGRAPHY */
 p, li {
+  font-family: 'Muli', sans-serif;
   font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  margin-top: 0.8em;
 }
 
 h1 {
@@ -14,3 +20,40 @@ h2 {
 h3 {
   font-size: 1.6em;
 }
+
+h4 {
+  font-size: 1.3em;
+}
+
+h5 {
+  font-size: 1.1em;
+  color: rgba(255, 90, 110, 1);
+}
+
+h2.tagline {
+  font-size: 2.4em;
+}
+
+/* LAYOUT */
+div.front-page-info {
+  padding-top: 3em;
+}
+
+div.front-page-info-block {
+  margin-top: 2em;
+}
+
+
+img.front-page-headshot {
+  height: 450px;
+}
+
+footer {
+  margin-top: 1em;
+  background-color: rgba(25, 179, 177, 1);
+}
+/*
+footer p {
+  padding: 2em 0;
+  text-align: center;
+} */
