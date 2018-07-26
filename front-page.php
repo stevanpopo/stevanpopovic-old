@@ -34,8 +34,8 @@
             <li>Post Two</li>
           </ul>
         </div>
-        <div class="">
-
+        <div class="column is-one-half-desktop">
+          <img src="<?php echo get_template_directory_uri() . '/images/stevan_headshot.jpg' ?>" alt="Stevan Popovic headshot">
         </div>
       </div>
     </div>
