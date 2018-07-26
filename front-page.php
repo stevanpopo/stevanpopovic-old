@@ -11,6 +11,15 @@
   </head>
   <body>
     <div class="container">
+      <header>
+        <nav class="primary-nav">
+          <ul>
+            <li><a href="#">Articles</a> &middot;</li>
+            <li><a href="#">About</a> &middot;</li>
+            <li><a href="#">Projects</a></li>
+          </ul>
+        </nav>
+      </header>
       <section>
         <h1>Stevan Popovic'</h1>
         <h2 class="tagline">A commercially-minded software developer.</h2>
@@ -51,6 +60,13 @@
         		 <?php endif; ?>
              </ul>
           </div>
+          <div class="front-page-info-block social-links">
+            <ul>
+              <li><a href="https://github.com/stevanpopo">GitHub</a> &middot;</li>
+              <li><a href="https://twitter.com/StevanPopo">Twitter</a> &middot;</li>
+              <li><a href="https://www.linkedin.com/in/stevanpopovic/">LinkedIn</a></li>
+            </ul>
+          </div>
         </div>
         <div class="column is-one-half-desktop">
           <img class="front-page-headshot" src="<?php echo get_template_directory_uri() . '/images/stevan_headshot.jpg' ?>" alt="Stevan Popovic headshot">
@@ -77,8 +93,8 @@
             </form>
           </div>
           <div class="column is-one-third copyright">
-            <p>Built with &#9825; by</p>
-            <p><a href="#">@stevanpopo</a>, 2018.</p>
+            <p><strong>Built with &hearts; by</strong></p>
+            <p><strong><a href="#">@stevanpopo</a>, 2018.</strong></p>
           </div>
         </div>
       </div>

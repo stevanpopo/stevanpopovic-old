@@ -2,6 +2,8 @@
 p, li {
   font-family: 'Muli', sans-serif;
   font-size: 16px;
+  color: rgba(74, 74, 74, .9);
+  /* line-height: 1.8em; */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -35,6 +37,23 @@ h2.tagline {
   font-weight: bold;
 }
 
+.social-links a:link, nav a:link {
+  color: rgba(74, 74, 74, .6);
+}
+
+.social-links a:visited, nav a:visited {
+  color: rgba(74, 74, 74, .6);
+}
+
+a:link {
+  text-decoration: underline;
+  color: rgba(74, 74, 74);
+}
+
+nav a:link, .social-links a:link {
+  text-decoration: none;
+}
+
 /* LAYOUT */
 div.front-page-info {
   padding-top: 3em;
@@ -44,18 +63,26 @@ div.front-page-info-block {
   margin-top: 2em;
 }
 
+.primary-nav {
+  margin-top: 1em;
+}
+
 img.front-page-headshot {
   height: 450px;
 }
 
 footer {
-  margin-top: 1em;
+  margin-top: 1.5em;
   background-color: rgba(25, 179, 177, 1);
 }
 
 footer .subscriber-input {
   margin-top: .6em;
 }
+
+/* footer p {
+  color: gold;
+} */
 
 .copyright {
   display: flex;
@@ -64,16 +91,27 @@ footer .subscriber-input {
   align-items: center;
 }
 
+.copyright p {
+  font-size: 14px;
+}
+
 .revue-subscribe form {
-  /* border-right: 1px solid silver; */
   margin-bottom: .6em;
 }
 
 small.date {
   margin-right: 1em;
 }
-/*
-footer p {
-  padding: 2em 0;
-  text-align: center;
-} */
+
+.social-links li {
+  display: inline-block;
+}
+
+nav li {
+  display: inline-block;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+}
