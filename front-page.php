@@ -60,7 +60,14 @@
       <div class="container">
         <div class="columns ">
           <div class="revue-subscribe column is-two-thirds-desktop">
-            <form action="https://www.getrevue.co/profile/stevanpopo/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
+            <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/stevanpopo" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/stevanpopo', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+              <p><label for="tlemail">Enter your email address</label></p>
+              <p><input type="text" style="width:140px" name="email" id="tlemail" /></p>
+              <input type="hidden" value="1" name="embed"/>
+              <input type="submit" value="Subscribe" />
+              <p><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></p></form>
+
+            <!-- <form action="https://www.getrevue.co/profile/stevanpopo/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
               <p>Sign up to my (very occasional) email to hear first about my upcoming product launches and receive any new posts straight to your inbox. Just enter your email and name below.</p>
               <div class="columns subscriber-input">
                 <div class="field column is-three-fifths">
@@ -73,7 +80,7 @@
                   <input class="button" type="submit" value="Subscribe" name="member[subscribe]" id="member_submit">
                 </div>
               </div>
-            </form>
+            </form> -->
           </div>
           <div class="column is-one-third copyright">
             <p><strong>Built with &hearts; by</strong></p>
