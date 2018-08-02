@@ -76,17 +76,13 @@ img.front-page-headshot {
 }
 
 footer {
-  margin-top: 1.5em;
+  margin-top: 2em;
   background-color: rgba(25, 179, 177, 1);
 }
 
 footer .subscriber-input {
-  margin-top: .6em;
+  margin-top: .8em;
 }
-
-/* footer p {
-  color: gold;
-} */
 
 .copyright {
   display: flex;
