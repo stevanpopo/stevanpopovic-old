@@ -118,6 +118,30 @@ header {
 
 /* SINGLE-PAGE POST */
 
-.content-area {
+/* .content-area {
   max-width: 600px;
+} */
+
+.content-area p {
+  margin-top: 1em;
+}
+
+.content-area p:nth-child(1) {
+  /* font-size: 1.3em; */
+  font-weight: bold;
+}
+
+.content-area p, .content-area li {
+  font-size: 1.2em;
+  line-height: 1.4em;
+  /* padding: 0 1em; */
+}
+
+.content-area ul, .content-area ol {
+  list-style: square inside;
+  line-height: 1em;
+}
+
+.content-area img {
+  width: inherit;
 }
