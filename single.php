@@ -11,7 +11,7 @@
 			<div class="post">
 			 	<!-- Display the Title as a link to the Post's permalink. -->
 
-			 	<h3 class="post-title"><?php the_title(); ?></h3>
+			 	<h1 class="post-title"><?php the_title(); ?></h1>
 
 			 	<!-- Display the date (November 16th, 2009 format) and a link to other posts by this posts author. -->
 
@@ -48,5 +48,5 @@
 
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+<?php // get_sidebar(); ?>
+<?php // get_footer(); ?> 

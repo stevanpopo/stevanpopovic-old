@@ -115,3 +115,9 @@ header {
   display: flex;
   justify-content: flex-end;
 }
+
+/* SINGLE-PAGE POST */
+
+.content-area {
+  max-width: 600px;
+}

@@ -61,12 +61,12 @@
         <div class="columns ">
           <div class="revue-subscribe column is-two-thirds-desktop">
             <form action="https://tinyletter.com/stevanpopo" method="post" target="_blank">
-              <p>Sign up to my (very occasional) email to hear first about my upcoming product launches and receive any new posts straight to your inbox. Just enter your email and name below.</p>
+              <p>Sign up to my (very occasional) email to hear first about my upcoming product launches, personal news and receive any new posts straight to your inbox.</p>
               <div class="columns subscriber-input">
-                <div class="field column is-three-fifths">
+                <div class="field column is-two-thirds">
                   <input class="input" placeholder="Your email..." type="text" name="email" id="tlemail" />
                 </div>
-                <div class="field column is-one-fifth revue-form-actions">
+                <div class="field column is-one-third revue-form-actions">
                   <input class="button" type="submit" value="Subscribe" />
                 </div>
               </div>
