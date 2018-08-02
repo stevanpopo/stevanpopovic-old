@@ -68,7 +68,11 @@ div.front-page-info-block {
 }
 
 img.front-page-headshot {
-  height: 450px;
+  height: 500px;
+  position: absolute;
+  bottom: -100px;
+  right: 20px;
+  z-index: -1;
 }
 
 footer {
