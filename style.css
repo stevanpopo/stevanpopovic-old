@@ -32,6 +32,12 @@ h5 {
   color: rgba(255, 90, 110, 1);
 }
 
+h6 {
+  color: rgba(255, 90, 110, 1);
+  text-transform: uppercase;
+  margin-top: 0em;
+}
+
 h2.tagline {
   font-size: 2.4em;
   font-weight: bold;
@@ -119,7 +125,7 @@ header {
 /* SINGLE-PAGE POST */
 
 .content-area p {
-  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .content-area p:nth-child(1) {
@@ -147,4 +153,12 @@ header {
 
 .post-meta-info {
   margin-top: 38.4px;
+}
+
+.post-meta-info h6 a:link {
+  text-decoration: none;
+  color: rgba(255, 90, 110, 1);
+}
+.post-meta-info h6 a:unvisited {
+  text-decoration: none;
 }

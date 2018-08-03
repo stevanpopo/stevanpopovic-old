@@ -11,7 +11,7 @@
         <div class="column is-2 post-meta-info">
           <!-- Display a comma separated list of the Post's Categories. -->
           <!-- <h5><?php the_category( ', ' ); ?></h5> -->
-          <h5><?php the_tags('',', '); ?></h5>
+          <h6><?php the_tags('',', '); ?></h6>
           <!-- Display the date (November 16th, 2009 format) and a link to other posts by this posts author. -->
           <small><?php the_time('F jS, Y'); ?></small>
         </div>
