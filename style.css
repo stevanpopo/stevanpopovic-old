@@ -60,17 +60,13 @@ nav a:link, .social-links a:link {
   text-decoration: none;
 }
 
-/* LAYOUT */
+/* FRONT-PAGE */
 div.front-page-info {
   padding-top: 3em;
 }
 
 div.front-page-info-block {
   margin-top: 2em;
-}
-
-.primary-nav {
-  margin-top: 1em;
 }
 
 img.front-page-headshot {
@@ -80,6 +76,15 @@ img.front-page-headshot {
   right: 20px;
   z-index: -1;
 }
+small.date {
+  margin-right: 1em;
+}
+
+.social-links li {
+  display: inline-block;
+}
+
+/* FOOTER */
 
 footer {
   margin-top: 2em;
@@ -105,16 +110,32 @@ footer .subscriber-input {
   margin-bottom: .6em;
 }
 
-small.date {
-  margin-right: 1em;
+/* HEADER */
+
+.home-logo {
+  background-color: rgba(255, 90, 110, 1);
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.social-links li {
-  display: inline-block;
+.home-logo h4 {
+  color: white;
+  font-weight: bold;
+  max-width: 50%;
+  margin-top: 0em;
 }
 
 nav li {
   display: inline-block;
+}
+
+.primary-nav {
+  margin-top: 1em;
 }
 
 header {
