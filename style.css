@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 2.1em;
 }
 
 h3 {
@@ -37,6 +37,7 @@ h6 {
   color: rgba(255, 90, 110, 1);
   text-transform: uppercase;
   margin-top: 0em;
+  font-size: 0.9em;
 }
 
 h2.tagline {
@@ -54,7 +55,13 @@ h2.tagline {
 
 a:link, a:visited {
   border-bottom: 1px dotted rgba(74, 74, 74, .4);
-  color: rgba(74, 74, 74, .8);
+  /* color: rgba(74, 74, 74, .8); */
+  color: rgba(255, 90, 110, 1);
+}
+
+a:hover {
+  color: rgba(74, 74, 74, .6);
+  /* color: rgba(248, 210, 16, 1); */
 }
 
 nav a:link, .social-links a:link {
@@ -179,7 +186,7 @@ header {
 }
 
 .post {
-  padding: 0 2em; */
+  padding: 0 2em;
 }
 
 .post-meta-info {
@@ -192,4 +199,23 @@ header {
 }
 .post-meta-info h6 a:unvisited {
   border-bottom: none;
+}
+
+/* ARCHIVE */
+
+h2.archive-page {
+  margin-top: 0em;
+}
+
+.archive-block {
+  border: 1px solid black;
+  /* padding: 0em; */
+}
+
+.archive-block a {
+  border-bottom: none;
+}
+
+.archive-block small {
+  font-size: 0.8em;
 }
