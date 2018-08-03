@@ -145,6 +145,7 @@ header {
 
 .content-area img {
   width: inherit;
+  margin: 1em 0;
 }
 
 .post {
