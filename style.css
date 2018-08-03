@@ -9,6 +9,7 @@ p, li {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
   margin-top: 0.8em;
+  margin-bottom: 0.2em;
 }
 
 h1 {
@@ -51,13 +52,13 @@ h2.tagline {
   color: rgba(74, 74, 74, .6);
 }
 
-a:link {
-  text-decoration: underline;
-  color: rgba(74, 74, 74);
+a:link, a:visited {
+  border-bottom: 1px dotted rgba(74, 74, 74, .4);
+  color: rgba(74, 74, 74, .8);
 }
 
 nav a:link, .social-links a:link {
-  text-decoration: none;
+  border-bottom: none;
 }
 
 /* FRONT-PAGE */
@@ -130,16 +131,12 @@ footer .subscriber-input {
   margin-top: 0em;
 }
 
-.home-logo h4 a:link {
-  text-decoration: none;
+.home-logo h4 a:link, .home-logo h4 a:visited {
   color: white;
-}
-
-.home-logo h4 a:visited {
-  color: white;
+  border-bottom: none;
 }
 .home-logo h4 a:hover {
-  color: gold;
+  color: rgba(248, 210, 16, 1)
 }
 
 nav li {
@@ -190,9 +187,9 @@ header {
 }
 
 .post-meta-info h6 a:link {
-  text-decoration: none;
+  border-bottom: none;
   color: rgba(255, 90, 110, 1);
 }
 .post-meta-info h6 a:unvisited {
-  text-decoration: none;
+  border-bottom: none;
 }
