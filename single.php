@@ -8,35 +8,35 @@
 
  			<?php if (have_posts()) : ?>
  			<?php while (have_posts()) : the_post(); ?>
-			<div class="post column is-one-half-desktop">
-			 	<!-- Display the Title as a link to the Post's permalink. -->
+        <div class="column is-2 post-meta-info">
+          <!-- Display a comma separated list of the Post's Categories. -->
+          <!-- <h5><?php the_category( ', ' ); ?></h5> -->
+          <h5><?php the_tags('',', '); ?></h5>
+          <!-- Display the date (November 16th, 2009 format) and a link to other posts by this posts author. -->
+          <small><?php the_time('F jS, Y'); ?></small>
+        </div>
 
-			 	<h1 class="post-title"><?php the_title(); ?></h1>
+        <div class="post column is-8">
+          <!-- Display the Title as a link to the Post's permalink. -->
 
-			 	<!-- Display the date (November 16th, 2009 format) and a link to other posts by this posts author. -->
+          <h1 class="post-title"><?php the_title(); ?></h1>
 
-			 	<small><?php the_time('F jS, Y'); ?><!-- by <?php the_author_posts_link(); ?>--></small>
+          <!-- Display the Post's content in a div box. -->
 
+          <div class="entry">
+            <?php the_content(); ?>
+          </div>
 
-			 	<!-- Display the Post's content in a div box. -->
+          <!-- Display a tweet button -->
 
-			 	<div class="entry">
-			 		<?php the_content(); ?>
-			 	</div>
+          <!-- <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-via="stevanpopo" data-show-count="false">Tweet</a>
 
-				<!-- Display a tweet button -->
+          <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> -->
 
-				<!-- <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-via="stevanpopo" data-show-count="false">Tweet</a>
+          <?php comments_template(); ?>
 
-        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+        </div> <!-- post -->
 
-			 	<!-- Display a comma separated list of the Post's Categories. -->
-
-			 	<p><small class="postmetadata"><?php _e( 'Posted in' ); ?> <?php the_category( ', ' ); ?></small></p>
-
-				<?php comments_template(); ?>
-
-			</div> <!-- post -->
 
 		<?php endwhile; ?>
 		<?php endif; ?>

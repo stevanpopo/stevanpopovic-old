@@ -118,10 +118,6 @@ header {
 
 /* SINGLE-PAGE POST */
 
-/* .content-area {
-  max-width: 600px;
-} */
-
 .content-area p {
   margin-top: 1em;
 }
@@ -132,9 +128,8 @@ header {
 }
 
 .content-area p, .content-area li {
-  font-size: 1.2em;
+  font-size: 1.3em;
   line-height: 1.4em;
-  /* padding: 0 1em; */
 }
 
 .content-area ul, .content-area ol {
@@ -144,4 +139,12 @@ header {
 
 .content-area img {
   width: inherit;
+}
+
+.post {
+  padding: 0 2em; */
+}
+
+.post-meta-info {
+  margin-top: 38.4px;
 }
