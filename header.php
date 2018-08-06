@@ -17,9 +17,9 @@
       <header>
         <nav class="primary-nav">
           <ul>
-            <li><a href="./writing">Articles</a> &middot;</li>
-            <li><a href="./about">About</a> &middot;</li>
-            <li><a href="./projects">Projects</a></li>
+            <li><a href="./projects">Projects</a> &middot;</li>
+            <li><a href="./writing">Writing</a> &middot;</li>
+            <li><a href="./about">About</a></li>
           </ul>
         </nav>
       </header>

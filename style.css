@@ -41,7 +41,7 @@ h6 {
 }
 
 h2.tagline {
-  font-size: 2.4em;
+  font-size: 2em;
   font-weight: bold;
 }
 
@@ -169,7 +169,7 @@ header {
   margin-bottom: 1em;
 }
 
-.content-area p:nth-child(1) {
+.content-area p:nth-child(1){
   /* font-size: 1.3em; */
   font-weight: bold;
 }

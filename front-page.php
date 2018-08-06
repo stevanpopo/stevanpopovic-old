@@ -5,7 +5,7 @@
  get_header(); ?>
       <section>
         <h1>Stevan Popovic'</h1>
-        <h2 class="tagline">A commercially-minded software developer.</h2>
+        <h2 class="tagline">A commercially-minded software developer, with experience in scaling startups.</h2>
       </section>
       <div class="columns">
         <div class="column is-one-half-desktop front-page-info">
