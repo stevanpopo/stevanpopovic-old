@@ -21,11 +21,11 @@ Template Name: Page
         <p>Things that are important to me.</p>
         <h5><a href="./books">Books</a></h5>
         <p>Books I've learned from and the notes I made.</p>
-        <h5><a href="./bucket-list">Bucket List</a></h5>
+        <!-- <h5><a href="./bucket-list">Bucket List</a></h5>
         <p>The things I want to do.</p>
         <h5><a href="./yearly-summaries">Yearly Summaries</a></h5>
         <p>My personal yearly reviews, year by year.</p>
-        <!-- <h5>Heuristics</h5>
+        <h5>Heuristics</h5>
         <p>A few rules of thumb for pragmatic decision making.</p>
         <h5>Videos</h5>
         <p>Moments worth watching in full.</p>

@@ -174,10 +174,9 @@ header {
   margin-bottom: 1em;
 }
 
-.content-area p:nth-child(1){
-  /* font-size: 1.3em; */
+/* .content-area p:nth-child(1){
   font-weight: bold;
-}
+} */
 
 .content-area p, .content-area li {
   font-size: 1.3em;
@@ -207,6 +206,10 @@ header {
 }
 .post-meta-info h6 a:unvisited {
   border-bottom: none;
+}
+
+blockquote {
+  font-weight: bold;
 }
 
 /* ARCHIVE */
@@ -241,4 +244,12 @@ a.img-link {
 .image-container {
   display: flex;
   align-items: center;
+}
+
+.books h3 {
+  margin-top: 0em;
+}
+
+section.books {
+  margin-top: 1em;
 }
