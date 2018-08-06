@@ -47,6 +47,4 @@ get_header(); ?>
       </div>
 
 	</div><!-- #post -->
-
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
