@@ -17,6 +17,12 @@
           <div class="column is-one-third copyright">
             <p><strong>Built with &hearts; by</strong></p>
             <p><strong><a href="#">@stevanpopo</a>, 2018.</strong></p>
+            <!-- <a class="twitter-timeline"
+                href="https://twitter.com/stevanpopo"
+                data-tweet-limit="1"
+                >
+            Tweets by @twittername</a>
+            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> -->
           </div>
         </div>
       </div>

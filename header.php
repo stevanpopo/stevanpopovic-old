@@ -19,7 +19,8 @@
           <ul>
             <li><a href="./projects">Projects</a> &middot;</li>
             <li><a href="./writing">Writing</a> &middot;</li>
-            <li><a href="./about">About</a></li>
+            <li><a href="./about">About</a> &middot;</li>
+            <li><a href="./contact">Contact</a></li>
           </ul>
         </nav>
       </header>

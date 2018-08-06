@@ -13,14 +13,15 @@
             <h5>Currently</h5>
             <ul>
               <li>Looking for new opportunities</li>
-              <li>Building X, Y and Z</li>
+              <!-- <li>Building X, Y and Z</li> -->
             </ul>
           </div>
           <div class="front-page-info-block">
             <h5>Previously</h5>
             <ul>
+              <li>Graduate of Web Development Immersive at General Assembly</li>
               <li>Business Development &amp; Partnerships at Deliveroo</li>
-              <li>Partnership Develpoment at YPlan</li>
+              <li>Partnership Development at YPlan</li>
               <li>Customer Experience at Concep</li>
             </ul>
           </div>
