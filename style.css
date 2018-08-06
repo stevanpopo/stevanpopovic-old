@@ -228,3 +228,12 @@ h2.archive-page {
 .additional-info p {
   font-size: 1em;
 }
+
+a.img-link {
+  border-bottom: none;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+}
