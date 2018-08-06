@@ -59,6 +59,10 @@ a:link, a:visited {
   color: rgba(255, 90, 110, 1);
 }
 
+h3 a:link, h3 a:visited, h4 a:link, h4 a:visited, h5 a:link, h5 a:visited {
+  border-bottom: none;
+}
+
 a:hover {
   color: rgba(74, 74, 74, .6);
   /* color: rgba(248, 210, 16, 1); */
