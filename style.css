@@ -181,7 +181,6 @@ header {
 }
 
 .content-area img {
-  width: inherit;
   margin: 1em 0;
 }
 
@@ -218,4 +217,10 @@ h2.archive-page {
 
 .archive-block small {
   font-size: 0.8em;
+}
+
+/* PAGES */
+
+.additional-info p {
+  font-size: 1em;
 }
