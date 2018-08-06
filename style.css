@@ -118,6 +118,11 @@ footer .subscriber-input {
   font-size: 14px;
 }
 
+.copyright a:link, .copyright a:visited  {
+  color: rgba(74, 74, 74, .8);
+  border-bottom: none;
+}
+
 .revue-subscribe form {
   margin-bottom: .6em;
 }
