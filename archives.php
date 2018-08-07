@@ -6,8 +6,6 @@ get_header(); ?>
 
 	<div class="post">
 
-
-
 		<!-- <?php the_post(); ?>
 		<h2 class="entry-title"><?php the_title(); ?></h2>
 
@@ -30,7 +28,7 @@ get_header(); ?>
           <div class="columns is-multiline">
             <?php query_posts('showposts=30'); if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
               <article class="columns column is-12 archive-block">
-                <div class="column is-one-fifth-desktop is-one-quarter-tablet is-four-quarters-mobile">
+                <div class="post-meta-archive column is-one-fifth-desktop is-one-quarter-tablet is-four-quarters-mobile">
                   <h6><?php the_tags('',', ' ); ?></h6>
                   <small><?php the_time('F jS, Y'); ?></small>
                 </div>
