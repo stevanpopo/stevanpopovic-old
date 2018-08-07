@@ -260,6 +260,15 @@ section.books {
 
 /* MEDIA-QUERIES */
 
+@media only screen and (max-width: 1096px) {
+
+    .container {
+      padding: 0px 1.6em;
+    }
+
+}
+
+
 @media only screen and (max-width: 768px) {
     .front-page-headshot {
       display: none;
@@ -291,6 +300,15 @@ section.books {
 
     div.home-logo {
       left: 0px;
+    }
+
+    .container {
+      padding: 0px 1em;
+    }
+
+    div.front-page-info-block, div.front-page-info {
+      margin-top: 0.4em;
+      padding-top: 0.4em;
     }
 
 }
