@@ -13,7 +13,7 @@
             <h5>Currently</h5>
             <ul>
               <li>Looking for new opportunities</li>
-              <!-- <li>Building X, Y and Z</li> -->
+              <li>Building a time-logging tool as a side project</li>
             </ul>
           </div>
           <div class="front-page-info-block">
