@@ -285,4 +285,12 @@ section.books {
       font-size: 1.1em;
     }
 
+    h2.tagline {
+      font-size: 1.2em;
+    }
+
+    div.home-logo {
+      left: 0px;
+    }
+
 }
