@@ -11,7 +11,9 @@
   </head>
   <body>
     <div class="home-logo">
-      <h4><a href="../">SP</a></h4>
+      <a href="../">
+        <h4>SP</h4>
+      </a>
     </div>
     <div class="container">
       <header>

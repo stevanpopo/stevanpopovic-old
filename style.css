@@ -145,17 +145,16 @@ input.button {
 }
 
 .home-logo h4 {
-  color: white;
   font-weight: bold;
   max-width: 50%;
   margin-top: 0em;
 }
 
-.home-logo h4 a:link, .home-logo h4 a:visited {
+.home-logo a:link, .home-logo a:visited {
   color: white;
   border-bottom: none;
 }
-.home-logo h4 a:hover {
+.home-logo a:hover {
   color: rgba(248, 210, 16, 1)
 }
 
