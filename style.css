@@ -145,6 +145,7 @@ input.button {
 }
 
 .home-logo h4 {
+  color: white;
   font-weight: bold;
   max-width: 50%;
   margin-top: 0em;
