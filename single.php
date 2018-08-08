@@ -23,7 +23,7 @@
 
           <!-- Display the Post's content in a div box. -->
 
-          <div class="entry">
+          <div class="entry content">
             <?php the_content(); ?>
           </div>
 

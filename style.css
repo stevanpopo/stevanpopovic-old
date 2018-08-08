@@ -187,6 +187,10 @@ header {
   line-height: 1.4em;
 }
 
+.content-area p p, .content-area li li  {
+  font-size: 1em;
+}
+
 .content-area ul, .content-area ol {
   list-style: square inside;
   line-height: 1em;
