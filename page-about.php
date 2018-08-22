@@ -18,9 +18,9 @@ Template Name: Page
       <div class="additional-info">
         <!-- <h3>Additional</h3> -->
         <h5><a href="./values">Values</a></h5>
-        <p>Things that are important to me.</p>
+        <p>A list of the <a href="./values">values and principles</a> that are important to me.</p>
         <h5><a href="./books">Books</a></h5>
-        <p>Books I've learned from and the notes I made.</p>
+        <p>Books I've learned from and the <a href="./books">notes I made</a>.</p>
         <!-- <h5><a href="./bucket-list">Bucket List</a></h5>
         <p>The things I want to do.</p>
         <h5><a href="./yearly-summaries">Yearly Summaries</a></h5>
