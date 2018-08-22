@@ -280,6 +280,12 @@ section.books {
       display: none;
     }
 
+    img.about-page-profile-image {
+      max-width: 300px;
+      margin: 0 auto;
+      display: block;
+    }
+
     p, li {
       font-size: 16px;
     }

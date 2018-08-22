@@ -12,8 +12,8 @@ Template Name: Page
   			<?php the_content(); ?>
           <?php endwhile; endif; ?>
   	</div>
-    <div class="column is-4">
-      <img src="<?php echo get_template_directory_uri() . '/images/stevan_profile.png' ?>" alt="stevan's profile headshot">
+    <div class="column is-4 is-centered">
+      <img class="about-page-profile-image" src="<?php echo get_template_directory_uri() . '/images/stevan_profile.png' ?>" alt="stevan's profile headshot">
 
       <div class="additional-info">
         <!-- <h3>Additional</h3> -->
