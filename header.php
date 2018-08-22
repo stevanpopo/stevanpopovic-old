@@ -10,11 +10,9 @@
     <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
   </head>
   <body>
-    <div class="home-logo">
-      <a href="/">
-        <h4>SP</h4>
-      </a>
-    </div>
+    <a class="home-logo" href="/">
+      <h4>SP</h4>
+    </a>
     <div class="container">
       <header>
         <nav class="primary-nav">

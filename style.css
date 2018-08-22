@@ -149,14 +149,16 @@ input.button {
   font-weight: bold;
   max-width: 50%;
   margin-top: 0em;
+  display: inline;
 }
 
-.home-logo a:link, .home-logo a:visited {
+a:link.home-logo h4, a:visited.home-logo h4 {
   color: white;
   border-bottom: none;
 }
-.home-logo a:hover {
-  color: rgba(248, 210, 16, 1)
+
+a:hover.home-logo h4  {
+  color: rgba(248, 210, 16, 1);
 }
 
 nav li {
