@@ -314,8 +314,10 @@ section.books {
       font-size: 1.2em;
     }
 
-    div.home-logo {
+    a.home-logo {
       left: 0px;
+      height: 40px;
+      width: 40px;
     }
 
     .container {
