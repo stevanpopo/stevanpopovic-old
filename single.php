@@ -4,7 +4,7 @@
  */
  get_header(); ?>
 
-	<div id="primary" class="content-area columns">
+	<div id="primary" class="content-area reading columns">
 
  			<?php if (have_posts()) : ?>
  			<?php while (have_posts()) : the_post(); ?>

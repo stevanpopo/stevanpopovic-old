@@ -3,7 +3,7 @@
 Template Name: Page
 */
  get_header(); ?>
-  <div class="content-area columns">
+  <div class="content-area reading columns">
     <div class='post column is-8'>
   		<?php if (have_posts()) : while (have_posts()) : the_post();?>
 

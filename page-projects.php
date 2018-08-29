@@ -1,9 +1,9 @@
 <?php
 /*
-Template Name: Page
+Template Name: Projects Page
 */
  get_header(); ?>
-  <div class="columns">
+  <div class="content-area columns">
     <div class='post column is-10'>
   		<?php if (have_posts()) : while (have_posts()) : the_post();?>
 
