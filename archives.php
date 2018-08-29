@@ -21,7 +21,7 @@ get_header(); ?>
 			 <?php wp_list_categories(); ?>
 		</ul> -->
 
-		<h2>All Posts</h2>
+		<h1>All Posts</h1>
 
       <div class="columns">
         <div class="column is-10-desktop">

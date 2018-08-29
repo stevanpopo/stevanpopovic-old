@@ -6,7 +6,7 @@
 get_header(); ?>
 
   <div class="post">
-    <h2>Tag: <?php single_tag_title(); ?></h2>
+    <h1>Tag: <?php single_tag_title(); ?></h1>
     <!-- <p>Here you can see the latest articles I have written on the topic of <?php single_tag_title(); ?>.</p> -->
     <div class="columns">
       <div class="column is-10-desktop">
