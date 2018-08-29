@@ -198,8 +198,11 @@ header {
 }
 
 .content-area ul, .content-area ol {
-  list-style: inside;
   line-height: 1.4em;
+}
+
+.content-area ul {
+  list-style: inside;
 }
 
 .content-area img {
