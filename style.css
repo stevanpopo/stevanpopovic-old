@@ -198,7 +198,7 @@ header {
 }
 
 .content-area ul, .content-area ol {
-  list-style: square inside;
+  list-style: inside;
   line-height: 1.4em;
 }
 
